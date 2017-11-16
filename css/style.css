@@ -1,0 +1,55 @@
+
+/*Crear un contenedor que tenga todas las imagenes*/
+.container {
+	width: 850px;
+	height: 432px;
+	display: inline-block;
+}
+
+/*Dar tamaño y padding a las imagenes*/
+img {
+	height: 200px;
+	width: 170px;
+	padding: 10px;
+}
+
+/* Dar tamaño a cada contenedor de cada imagen*/
+.imagen-con-nombre {
+	height: 210px;
+	width: 200px;
+	float: left;
+}
+
+/*Colocar el nombre encima de cada imagen*/
+span{
+	float: right;
+	position: relative;
+	bottom: 40px;
+	right: 30px;
+	color: white;
+	text-shadow: #474747 4px 4px 4px;
+	font-family: 'Lato', sans-serif;	
+}
+
+/*Colocar la linea que marca el titulo*/
+.linea-horizontal {
+	background: #474747;
+	height: 5px;
+	width: 100px;
+	padding:0;
+	margin:0;
+	margin-bottom: 15px;
+}
+
+/*Dar formato al titulo*/
+h1 {
+	display: inline;
+	font-family: 'Roboto Slab', serif;
+	font-size: 22px;
+	color: #9FA09E;
+}
+
+/*Aumentar el padding de todo el archivo*/
+body {
+	padding: 20px;
+}
